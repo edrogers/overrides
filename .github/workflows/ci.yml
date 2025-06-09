@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [master, main]
+    branches: [master, main, expand-ci-version-matrix]
   pull_request:
 jobs:
   build:
